@@ -9,4 +9,13 @@
 <servlet-name>addition</servlet-name>
 <url-pattern>/add</url-pattern>
 </servlet-mapping>
+
+<servlet >
+<servlet-name>square</servlet-name>
+<servlet-class>com.Webapp.squareServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>square</servlet-name>
+<url-pattern>/sq</url-pattern>
+</servlet-mapping>
 </web-app>
