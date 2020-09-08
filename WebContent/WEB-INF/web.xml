@@ -11,11 +11,21 @@
 </servlet-mapping>
 
 <servlet >
-<servlet-name>square</servlet-name>
-<servlet-class>com.Webapp.squareServlet</servlet-class>
+	<servlet-name>square</servlet-name>
+	<servlet-class>com.Webapp.squareServlet</servlet-class>
+
+<init-param>
+	<param-name>Name</param-name>
+	<param-value>Private Dev</param-value>
+</init-param>
 </servlet>
 <servlet-mapping>
 <servlet-name>square</servlet-name>
 <url-pattern>/sq</url-pattern>
 </servlet-mapping>
+
+<context-param>
+<param-name>Name</param-name>
+<param-value>Dev</param-value>
+</context-param>
 </web-app>

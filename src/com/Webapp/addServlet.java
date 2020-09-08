@@ -29,5 +29,6 @@ public class addServlet extends HttpServlet{
 		res.addCookie(cookie);
 		
 		res.sendRedirect("sq");
+		
 	}
 }
